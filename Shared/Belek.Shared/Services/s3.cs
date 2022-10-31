@@ -26,7 +26,7 @@ namespace Belek.Shared.Services
                 c.ForcePathStyle = true;
                 c.Timeout = TimeSpan.FromMinutes(30);
 
-                return new AmazonS3Client("AKIA345DITGOVVBOQ77M", "5JJmlwfosb+g3JcLLqHBmz3XOS0UEQnCGVDNsG4y", c);
+                return new AmazonS3Client("mock", "mock", c);
             }
         }
 
