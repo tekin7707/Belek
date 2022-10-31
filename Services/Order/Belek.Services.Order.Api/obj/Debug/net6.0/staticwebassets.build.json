@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ptEIYEBlbSyxeBdHpx0mduD65U43KxPPJ6WewVC6TN0=",
+  "Source": "Belek.Services.Order.Api",
+  "BasePath": "_content/Belek.Services.Order.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

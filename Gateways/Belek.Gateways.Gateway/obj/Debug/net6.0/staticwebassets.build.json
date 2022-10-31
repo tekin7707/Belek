@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ELzdkuEAPbGopsM8q9UINsGbyb4wp+NilBMt+oh9yu0=",
+  "Source": "Belek.Gateways.Gateway",
+  "BasePath": "_content/Belek.Gateways.Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

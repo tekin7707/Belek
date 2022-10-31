@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\Belek.Shared\Belek.Shared.csproj" />
+    <ProjectReference Include="..\Belek.Services.Order.Db\Belek.Services.Order.Db.csproj" />
+    <ProjectReference Include="..\Belek.Services.Order.Domain\Belek.Services.Order.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

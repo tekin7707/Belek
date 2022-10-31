@@ -1,0 +1,12 @@
+D:\projects\Microservices\Belek\Services\Order\Belek.Services.Order.Domain\bin\Debug\net6.0\Belek.Services.Order.Domain.deps.json
+D:\projects\Microservices\Belek\Services\Order\Belek.Services.Order.Domain\bin\Debug\net6.0\Belek.Services.Order.Domain.dll
+D:\projects\Microservices\Belek\Services\Order\Belek.Services.Order.Domain\bin\Debug\net6.0\Belek.Services.Order.Domain.pdb
+D:\projects\Microservices\Belek\Services\Order\Belek.Services.Order.Domain\obj\Debug\net6.0\Belek.Services.Order.Domain.csproj.AssemblyReference.cache
+D:\projects\Microservices\Belek\Services\Order\Belek.Services.Order.Domain\obj\Debug\net6.0\Belek.Services.Order.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\Microservices\Belek\Services\Order\Belek.Services.Order.Domain\obj\Debug\net6.0\Belek.Services.Order.Domain.AssemblyInfoInputs.cache
+D:\projects\Microservices\Belek\Services\Order\Belek.Services.Order.Domain\obj\Debug\net6.0\Belek.Services.Order.Domain.AssemblyInfo.cs
+D:\projects\Microservices\Belek\Services\Order\Belek.Services.Order.Domain\obj\Debug\net6.0\Belek.Services.Order.Domain.csproj.CoreCompileInputs.cache
+D:\projects\Microservices\Belek\Services\Order\Belek.Services.Order.Domain\obj\Debug\net6.0\Belek.Services.Order.Domain.dll
+D:\projects\Microservices\Belek\Services\Order\Belek.Services.Order.Domain\obj\Debug\net6.0\refint\Belek.Services.Order.Domain.dll
+D:\projects\Microservices\Belek\Services\Order\Belek.Services.Order.Domain\obj\Debug\net6.0\Belek.Services.Order.Domain.pdb
+D:\projects\Microservices\Belek\Services\Order\Belek.Services.Order.Domain\obj\Debug\net6.0\ref\Belek.Services.Order.Domain.dll

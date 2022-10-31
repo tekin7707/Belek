@@ -1,0 +1,43 @@
+version: "3.8"
+services:
+  identitydb:
+    container_name: identitydb
+    restart: always
+    ports:
+      - "1433:1433"
+    volumes:
+      - identitydb_volume:/var/opt/mssql
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Belek77777777!.
+  catalogdb:
+    container_name: catalogdb
+    restart: always
+    ports:
+      - "1444:1433"
+    volumes:
+      - catalogdb_volume:/var/opt/mssql
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Belek77777777!.
+  identityserver.api:
+    container_name: identityserver.api
+    restart: on-failure
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ConnectionStrings:DefaultConnection=Server=identitydb,1433;Database=IdentityDb; User=sa; Password=Belek77777777!."
+    ports:
+      - "5001:80"
+    depends_on:
+      - identitydb
+  catalog.api:
+    container_name: catalog.api
+    restart: on-failure
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - IdentityServerURL=http://identityserver.api
+      - "ConnectionStrings:DefaultConnection=Server=catalogdb,1444;Database=CatalogDb; User=sa; Password=Belek77777777!."
+    ports:
+      - "5011:80"
+    depends_on:
+      - catalogdb

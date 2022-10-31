@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<CatalogViewModel>
+@if (Model != null && Model.Any())
+{
+    var count = 0;
+
+    @foreach (var item in Model)
+    {
+        count++;
+        if (count == 1 || (count % 3 == 1))
+        {
+            @Html.Raw("<div class='row row-cols-1 row-cols-md-3 g-4 mb-2' >")
+        }
+        <div class="col">
+            <div class="card">
+                <img src="@item.ThumbUrl" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Name</h5>
+                    <p class="card-text">@item.ShortDescription</p>
+                    <h4 class="text-primary">@item.Price TL</h4>
+                    <a asp-controller="Home" asp-action="Detail" class="btn btn-success" asp-route-id="@item.Id">Details</a>
+                </div>
+            </div>
+        </div>
+
+        if (count % 3 == 0)
+        {
+            @Html.Raw("</div>")
+        }
+
+    }
+}
+
+
+@section scripts
+    {
+    <script>
+        $(document).ready(function () {
+            console.log('ready!');
+            //$.ajax({
+            //    type:'GET',
+            //    dataType:'json',
+            //    url: 'http://localhost:5000/services/Catalog/catalogs',
+            //    success: (result) => {
+            //        console.log('success');
+            //        console.log(result);
+            //    },
+            //    error: (jqXHR, textStatus, errorThrown) => {
+            //        debugger;
+            //        console.log('error');
+            //        console.log(jqXHR);
+            //        console.log(textStatus);
+            //        console.log(errorThrown);
+            //    }
+            //})
+            // .always(() => {
+            //        console.log('always');
+            // });
+
+        });
+    </script>
+}

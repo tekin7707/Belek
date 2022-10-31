@@ -1,0 +1,20 @@
+version: "3.8"
+services:
+  identitydb:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+  catalogdb:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+  catalog.api:
+    image: catalog_api_image
+    build:
+      context: .
+      dockerfile: Services/Catalog/Belek.Services.Catalog.Api/Dockerfile
+  identityserver.api:
+    image: identityserver_api_image
+    build:
+      context: .
+      dockerfile: IdentityServer/Belek.IdentityServer/Dockerfile
+
+volumes:
+  catalogdb_volume:
+  identitydb_volume:

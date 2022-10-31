@@ -1,0 +1,10 @@
+D:\projects\Microservices\Belek\Shared\Belek.Shared\bin\Debug\netcoreapp3.1\Belek.Shared.deps.json
+D:\projects\Microservices\Belek\Shared\Belek.Shared\bin\Debug\netcoreapp3.1\Belek.Shared.dll
+D:\projects\Microservices\Belek\Shared\Belek.Shared\bin\Debug\netcoreapp3.1\Belek.Shared.pdb
+D:\projects\Microservices\Belek\Shared\Belek.Shared\obj\Debug\netcoreapp3.1\Belek.Shared.csproj.AssemblyReference.cache
+D:\projects\Microservices\Belek\Shared\Belek.Shared\obj\Debug\netcoreapp3.1\Belek.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\Microservices\Belek\Shared\Belek.Shared\obj\Debug\netcoreapp3.1\Belek.Shared.AssemblyInfoInputs.cache
+D:\projects\Microservices\Belek\Shared\Belek.Shared\obj\Debug\netcoreapp3.1\Belek.Shared.AssemblyInfo.cs
+D:\projects\Microservices\Belek\Shared\Belek.Shared\obj\Debug\netcoreapp3.1\Belek.Shared.csproj.CoreCompileInputs.cache
+D:\projects\Microservices\Belek\Shared\Belek.Shared\obj\Debug\netcoreapp3.1\Belek.Shared.dll
+D:\projects\Microservices\Belek\Shared\Belek.Shared\obj\Debug\netcoreapp3.1\Belek.Shared.pdb

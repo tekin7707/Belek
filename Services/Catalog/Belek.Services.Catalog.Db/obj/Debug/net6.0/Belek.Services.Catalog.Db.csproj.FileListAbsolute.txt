@@ -1,0 +1,17 @@
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Db\bin\Debug\net6.0\Belek.Services.Catalog.Db.deps.json
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Db\bin\Debug\net6.0\Belek.Services.Catalog.Db.runtimeconfig.json
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Db\bin\Debug\net6.0\Belek.Services.Catalog.Db.dll
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Db\bin\Debug\net6.0\Belek.Services.Catalog.Db.pdb
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Db\bin\Debug\net6.0\Belek.Services.Catalog.Domain.dll
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Db\bin\Debug\net6.0\Belek.Services.Catalog.Domain.pdb
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Db\obj\Debug\net6.0\Belek.Services.Catalog.Db.csproj.AssemblyReference.cache
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Db\obj\Debug\net6.0\Belek.Services.Catalog.Db.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Db\obj\Debug\net6.0\Belek.Services.Catalog.Db.AssemblyInfoInputs.cache
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Db\obj\Debug\net6.0\Belek.Services.Catalog.Db.AssemblyInfo.cs
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Db\obj\Debug\net6.0\Belek.Services.Catalog.Db.csproj.CoreCompileInputs.cache
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Db\obj\Debug\net6.0\Belek.Services.Catalog.Db.csproj.CopyComplete
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Db\obj\Debug\net6.0\Belek.Services.Catalog.Db.dll
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Db\obj\Debug\net6.0\refint\Belek.Services.Catalog.Db.dll
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Db\obj\Debug\net6.0\Belek.Services.Catalog.Db.pdb
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Db\obj\Debug\net6.0\Belek.Services.Catalog.Db.genruntimeconfig.cache
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Db\obj\Debug\net6.0\ref\Belek.Services.Catalog.Db.dll

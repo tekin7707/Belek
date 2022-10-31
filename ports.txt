@@ -1,0 +1,17 @@
+* Services
+	- catalog api http://localhost:5011
+            "DefaultConnection": "Server=localhost,1444;Database=CatalogDb; User=sa; Password=Belek77777777!."
+
+	- photostock api  http://localhost:5012
+    - basket api "http://localhost:5013",
+    - discount api "http://localhost:5014",
+    - order api "http://localhost:5015",
+    - payment api "http://localhost:5016"
+
+
+* identity server http://localhost:5001
+    "DefaultConnection": "Server=localhost,1433;Database=IdentityDb;user id=sa;password=Belek77777777!."
+
+* gateway   http://localhost:5000
+
+* web   http://localhost:5010

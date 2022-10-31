@@ -1,0 +1,265 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\projects\\Microservices\\Belek\\Services\\Order\\Belek.Services.Order.App\\Belek.Services.Order.App.csproj": {}
+  },
+  "projects": {
+    "D:\\projects\\Microservices\\Belek\\Services\\Order\\Belek.Services.Order.App\\Belek.Services.Order.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\Microservices\\Belek\\Services\\Order\\Belek.Services.Order.App\\Belek.Services.Order.App.csproj",
+        "projectName": "Belek.Services.Order.App",
+        "projectPath": "D:\\projects\\Microservices\\Belek\\Services\\Order\\Belek.Services.Order.App\\Belek.Services.Order.App.csproj",
+        "packagesPath": "C:\\Users\\tekin\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\Microservices\\Belek\\Services\\Order\\Belek.Services.Order.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tekin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\projects\\Microservices\\Belek\\Services\\Order\\Belek.Services.Order.Db\\Belek.Services.Order.Db.csproj": {
+                "projectPath": "D:\\projects\\Microservices\\Belek\\Services\\Order\\Belek.Services.Order.Db\\Belek.Services.Order.Db.csproj"
+              },
+              "D:\\projects\\Microservices\\Belek\\Services\\Order\\Belek.Services.Order.Domain\\Belek.Services.Order.Domain.csproj": {
+                "projectPath": "D:\\projects\\Microservices\\Belek\\Services\\Order\\Belek.Services.Order.Domain\\Belek.Services.Order.Domain.csproj"
+              },
+              "D:\\projects\\Microservices\\Belek\\Shared\\Belek.Shared\\Belek.Shared.csproj": {
+                "projectPath": "D:\\projects\\Microservices\\Belek\\Shared\\Belek.Shared\\Belek.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\Microservices\\Belek\\Services\\Order\\Belek.Services.Order.Db\\Belek.Services.Order.Db.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\Microservices\\Belek\\Services\\Order\\Belek.Services.Order.Db\\Belek.Services.Order.Db.csproj",
+        "projectName": "Belek.Services.Order.Db",
+        "projectPath": "D:\\projects\\Microservices\\Belek\\Services\\Order\\Belek.Services.Order.Db\\Belek.Services.Order.Db.csproj",
+        "packagesPath": "C:\\Users\\tekin\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\Microservices\\Belek\\Services\\Order\\Belek.Services.Order.Db\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tekin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\projects\\Microservices\\Belek\\Services\\Order\\Belek.Services.Order.Domain\\Belek.Services.Order.Domain.csproj": {
+                "projectPath": "D:\\projects\\Microservices\\Belek\\Services\\Order\\Belek.Services.Order.Domain\\Belek.Services.Order.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\Microservices\\Belek\\Services\\Order\\Belek.Services.Order.Domain\\Belek.Services.Order.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\Microservices\\Belek\\Services\\Order\\Belek.Services.Order.Domain\\Belek.Services.Order.Domain.csproj",
+        "projectName": "Belek.Services.Order.Domain",
+        "projectPath": "D:\\projects\\Microservices\\Belek\\Services\\Order\\Belek.Services.Order.Domain\\Belek.Services.Order.Domain.csproj",
+        "packagesPath": "C:\\Users\\tekin\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\Microservices\\Belek\\Services\\Order\\Belek.Services.Order.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tekin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\Microservices\\Belek\\Shared\\Belek.Shared\\Belek.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\Microservices\\Belek\\Shared\\Belek.Shared\\Belek.Shared.csproj",
+        "projectName": "Belek.Shared",
+        "projectPath": "D:\\projects\\Microservices\\Belek\\Shared\\Belek.Shared\\Belek.Shared.csproj",
+        "packagesPath": "C:\\Users\\tekin\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\Microservices\\Belek\\Shared\\Belek.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tekin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.9.65, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+﻿1- Template indir
+	dotnet new -i identityserver4.templates
+
+2- projeyi kurulacak yere odklan ve projeyi yeni isimle oluştur.
+	D:\projects\Microservices\Belek\IdentityServer>dotnet new is4aspid --name Belek.IdentityServer
+
+3-docker için Sql Server Linux yükleyelim. db=identitydb Port 1433 şifre Belek77777777!.
+
+4- Nuget
+	Microsoft.EntityFrameworkCore.SqlServer 3.1.5

@@ -1,0 +1,12 @@
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Domain\bin\Debug\net6.0\Belek.Services.Catalog.Domain.deps.json
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Domain\bin\Debug\net6.0\Belek.Services.Catalog.Domain.dll
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Domain\bin\Debug\net6.0\Belek.Services.Catalog.Domain.pdb
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Domain\obj\Debug\net6.0\Belek.Services.Catalog.Domain.csproj.AssemblyReference.cache
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Domain\obj\Debug\net6.0\Belek.Services.Catalog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Domain\obj\Debug\net6.0\Belek.Services.Catalog.Domain.AssemblyInfoInputs.cache
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Domain\obj\Debug\net6.0\Belek.Services.Catalog.Domain.AssemblyInfo.cs
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Domain\obj\Debug\net6.0\Belek.Services.Catalog.Domain.csproj.CoreCompileInputs.cache
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Domain\obj\Debug\net6.0\Belek.Services.Catalog.Domain.dll
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Domain\obj\Debug\net6.0\refint\Belek.Services.Catalog.Domain.dll
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Domain\obj\Debug\net6.0\Belek.Services.Catalog.Domain.pdb
+D:\projects\Microservices\Belek\Services\Catalog\Belek.Services.Catalog.Domain\obj\Debug\net6.0\ref\Belek.Services.Catalog.Domain.dll

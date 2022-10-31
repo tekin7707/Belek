@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="AWSSDK.S3" Version="3.7.9.65" />
+	  <PackageReference Include="System.Drawing.Common" Version="5.0.0" />
+	</ItemGroup>
+</Project>

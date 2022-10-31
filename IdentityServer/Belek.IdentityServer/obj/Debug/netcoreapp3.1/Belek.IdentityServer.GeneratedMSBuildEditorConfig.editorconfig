@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Belek.IdentityServer
+build_property.ProjectDir = D:\projects\Microservices\Belek\IdentityServer\Belek.IdentityServer\
