@@ -6,6 +6,22 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
+          "Port": 5012
+        }
+      ],
+      "DelegatingHandlers": [
+        "RequestInspector"
+      ],
+      "UpstreamPathTemplate": "/services/photo/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+      "UpstreamScheme": "http"
+    },
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
           "Port": 5011
         }
       ],

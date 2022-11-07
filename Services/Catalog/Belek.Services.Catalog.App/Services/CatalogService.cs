@@ -103,7 +103,7 @@ namespace Belek.Services.Catalog.App.Services
             }
             _catalogDbContext.Remove<Domain.Models.Catalog>(catalog);
             await _catalogDbContext.SaveChangesAsync();
-            return Response<NoContent>.Fail("Course not found", 404);
+            return Response<NoContent>.Success(204);
         }
     }
 }

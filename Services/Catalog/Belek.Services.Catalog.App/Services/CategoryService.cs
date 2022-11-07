@@ -51,5 +51,17 @@ namespace Belek.Services.Catalog.App.Services
 
             return Response<CategoryDto>.Success(ObjectMapper.Mapper.Map<CategoryDto>(category), 200);
         }
+
+        public async Task<Response<NoContent>> DeleteAsync(int id)
+        {
+            var category = await _catalogDbContext.Categories.Where(x => x.Id == id).FirstOrDefaultAsync();
+            if (category == null)
+            {
+                return Response<NoContent>.Fail("Catalog not found", 404);
+            }
+            _catalogDbContext.Remove<Domain.Models.Category>(category);
+            await _catalogDbContext.SaveChangesAsync();
+            return Response<NoContent>.Success(204);
+        }
     }
 }

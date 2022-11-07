@@ -47,13 +47,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{AC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Belek.Gateways.Gateway", "Gateways\Belek.Gateways.Gateway\Belek.Gateways.Gateway.csproj", "{1FD3CA13-B39B-4A73-B573-24BF5D87015D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belek.Services.Order.Api", "Services\Order\Belek.Services.Order.Api\Belek.Services.Order.Api.csproj", "{255D74BC-C0E3-4E85-9706-331E5985D261}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Belek.Services.Order.Api", "Services\Order\Belek.Services.Order.Api\Belek.Services.Order.Api.csproj", "{255D74BC-C0E3-4E85-9706-331E5985D261}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belek.Services.Order.Db", "Services\Order\Belek.Services.Order.Db\Belek.Services.Order.Db.csproj", "{8130F3B6-4FFB-44AF-A151-1E94756B3232}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Belek.Services.Order.Db", "Services\Order\Belek.Services.Order.Db\Belek.Services.Order.Db.csproj", "{8130F3B6-4FFB-44AF-A151-1E94756B3232}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belek.Services.Order.Domain", "Services\Order\Belek.Services.Order.Domain\Belek.Services.Order.Domain.csproj", "{8E718C57-0021-48D3-B4F4-9E2C9D5B2E76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Belek.Services.Order.Domain", "Services\Order\Belek.Services.Order.Domain\Belek.Services.Order.Domain.csproj", "{8E718C57-0021-48D3-B4F4-9E2C9D5B2E76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belek.Services.Order.App", "Services\Order\Belek.Services.Order.App\Belek.Services.Order.App.csproj", "{8826A6CC-047C-47AE-81BF-01F210DA4E03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Belek.Services.Order.App", "Services\Order\Belek.Services.Order.App\Belek.Services.Order.App.csproj", "{8826A6CC-047C-47AE-81BF-01F210DA4E03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Belek.Services.Photo", "Services\Photo\Belek.Services.Photo\Belek.Services.Photo.csproj", "{D0EA8434-ED80-4D4D-86E8-86933A3FF15B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +115,10 @@ Global
 		{8826A6CC-047C-47AE-81BF-01F210DA4E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8826A6CC-047C-47AE-81BF-01F210DA4E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8826A6CC-047C-47AE-81BF-01F210DA4E03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0EA8434-ED80-4D4D-86E8-86933A3FF15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0EA8434-ED80-4D4D-86E8-86933A3FF15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0EA8434-ED80-4D4D-86E8-86933A3FF15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0EA8434-ED80-4D4D-86E8-86933A3FF15B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -135,6 +141,7 @@ Global
 		{8130F3B6-4FFB-44AF-A151-1E94756B3232} = {51DE4A02-F045-4C28-882F-E3C4D2C27619}
 		{8E718C57-0021-48D3-B4F4-9E2C9D5B2E76} = {51DE4A02-F045-4C28-882F-E3C4D2C27619}
 		{8826A6CC-047C-47AE-81BF-01F210DA4E03} = {51DE4A02-F045-4C28-882F-E3C4D2C27619}
+		{D0EA8434-ED80-4D4D-86E8-86933A3FF15B} = {EC7BB944-D414-41FF-80EA-5FCA9E8C5B3D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA1B84C8-4125-419B-A92B-3DE0E71DFC00}

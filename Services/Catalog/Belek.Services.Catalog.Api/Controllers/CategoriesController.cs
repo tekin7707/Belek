@@ -45,5 +45,13 @@ namespace Belek.Services.Catalog.Controllers
 
             return CreateActionResultInstance(response);
         }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var response = await _categoryService.DeleteAsync(id);
+
+            return CreateActionResultInstance(response);
+        }
     }
 }

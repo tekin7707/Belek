@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Belek.Services.Order.Db": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:52639;http://localhost:52642"
+    }
+  }
+}

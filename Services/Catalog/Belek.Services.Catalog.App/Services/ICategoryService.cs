@@ -14,5 +14,7 @@ namespace Belek.Services.Catalog.App.Services
         Task<Response<CategoryDto>> CreateAsync(CategoryDto category);
 
         Task<Response<CategoryDto>> GetByIdAsync(int id);
+        Task<Response<NoContent>> DeleteAsync(int id);
+
     }
 }
